@@ -2,13 +2,13 @@
 ---
 
 // "Reset" styles and SCSS reusable components
-@import "normalize";
-@import "mixins";
-@import "variables";
+@import "../_sas/normalize";
+@import "../_sas/mixins";
+@import "../_sas/variables";
 
 // Generic site base & layout styles
-@import "base";
-@import "layout";
+@import "../_sas/base";
+@import "../_sas/layout";
 
 // Layouts
-@import "resume";
+@import "../_sas/resume";
