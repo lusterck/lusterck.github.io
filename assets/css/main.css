@@ -59,7 +59,7 @@
 /* Containers */
 
 	.container {
-		margin-left: 25%;
+		margin-left: 20%;
 		margin-right: 20%;
 	}
 
@@ -1675,7 +1675,7 @@
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0em 0;
-		text-transform: uppercase;
+		
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1683,9 +1683,14 @@
 			text-decoration: none;
 		}
 
+	h1 {
+		text-transform: uppercase;
+	}
+		
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
+		text-transform: uppercase;
 	}
 
 	h3 {
@@ -3093,7 +3098,7 @@
 	#banner {
     padding: 1em 0 1em 0;
     /*background-attachment: fixed;*/
-    background-image: url(../../images/overlay.png), url(../../images/gent.jpg);
+    background-image: url(../../images/overlay.png), url(../../images/gent_orig.jpg);
     background-position: 50% 60%;
     /* background-position: center top; */
     background-size: cover;
