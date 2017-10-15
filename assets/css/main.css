@@ -59,8 +59,8 @@
 /* Containers */
 
 	.container {
-		margin-left: 25%;
-		margin-right: 20%;
+		margin-left: 20%;
+		margin-right: 0%;
 	}
 
 	.container.\31 25\25 {
@@ -210,7 +210,7 @@
 		}
 
 		.container {
-			width: 90% !important;
+			width: 80% !important;
 		}
 
 	}
@@ -2728,7 +2728,7 @@
 	}
 
 	.wrapper {
-		padding: 2em 0 1em 0;
+		padding: 0em 0 0em 0;
 	}
 
 		.wrapper > .inner {
