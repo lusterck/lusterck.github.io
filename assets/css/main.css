@@ -59,8 +59,11 @@
 	/* Containers */
 
 	.container {
+		max-width: 960px;
+		width: 960px;
 		margin-left: 20%;
 		margin-right: 20%;
+		width: 60%;
 	}
 
 	.container.\31 25\25 {
@@ -81,9 +84,6 @@
 		width: 60%;
 	}
 
-	.container {
-		width: 60%;
-	}
 
 
 
@@ -1522,7 +1522,7 @@
 
 	a {
 		text-decoration: underline;
-		color: #f32853;
+		color: #001a66;
 	}
 
 	a:hover {
@@ -2302,7 +2302,7 @@
 
 	ul.icons li {
 		display: inline-block;
-		padding: 0 1em 0 0;
+		padding: 0 0.1em 0 0;
 	}
 
 	ul.icons li:last-child {
@@ -2614,7 +2614,7 @@
 
 	.wrapper.style3 {
 		background-attachment: fixed;
-		background-image: url("../../images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url(../../images/overlay.jpg), url(../../images/gentorig.jpg);
 		background-position: center center;
 		background-size: cover;
 	}
@@ -2727,6 +2727,11 @@
 
 	#header nav ul li a:hover {
 		color: #484848;
+		text-decoration: underline;
+	}
+
+	#header .icons a:hover {
+		text-decoration: none;
 	}
 
 	#header nav ul li:first-child {
@@ -2971,7 +2976,7 @@
 	#banner {
 		padding: 1em 0 1em 0;
 		/*background-attachment: fixed;*/
-		background-image: url(../../images/overlay.png), url(../../images/gentorig.jpg);
+		background-image: url(../../images/gentorig.jpg), url(../../images/gentorig.jpg);
 		background-position: 50% 60%;
 		/* background-position: center top; */
 		background-size: cover;
