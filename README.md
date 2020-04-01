@@ -1,1 +1,1 @@
-Repository for academic homepage
+Repository for personal website
